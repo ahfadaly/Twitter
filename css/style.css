@@ -1,0 +1,54 @@
+  *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+  }
+body{
+  /* background-color: #15202B; */
+}
+.logo .d-flex img{
+ width: 35px;
+ height: 35px;
+}
+.twitter-home .home{
+  margin-bottom: 25px;
+}
+.twitter-home .home img,
+ .follow img{
+  margin-right: 15px;
+  width: 30px;
+  height: 30px;
+}
+.twitter-home .home .color{
+ color: #1A91DA;
+}
+.twitter-home .home strong{
+  font-weight: 700px;
+  font-size: 20px;
+  transition: 0.2s;
+}
+.twitter-home .home strong:hover{
+  color: #1A91DA;
+ }
+/* ============================== */
+.contact{
+  position: relative;
+}
+ .contact img:first-child{
+   border-radius: 50%;
+   width: 60px;
+   margin-right: 10px;
+ }
+.contact .name h6{
+ font-weight: bold;
+ font-size: 25px;
+}
+.contact .name img{
+ width: 100%;
+}
+.follow img{
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
